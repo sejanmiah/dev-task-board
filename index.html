@@ -28,7 +28,7 @@
                             <defs/>
                             <path id="Vector" d="M25.33 0L6.66 0C2.98 0 0 2.98 0 6.66L0 25.33C0 29.01 2.98 31.99 6.66 32L25.33 32C29.01 31.99 31.99 29.01 32 25.33L32 6.66C31.99 2.98 29.01 0 25.33 0ZM26.66 10.77L14.32 23.11C13.28 24.15 11.59 24.15 10.55 23.11C10.55 23.11 10.55 23.11 10.55 23.11L5.33 17.88C4.81 17.36 4.81 16.52 5.33 16C5.85 15.47 6.7 15.47 7.22 16L12.44 21.22L24.78 8.88C25.3 8.36 26.15 8.36 26.66 8.88C27.18 9.4 27.18 10.25 26.66 10.77Z" fill="#3752FD" fill-opacity="1.000000" fill-rule="nonzero"/>
                         </svg>
-                        <h1 class="text-2xl">23</h1>
+                        <h1 id="increase-value" class="text-2xl">23</h1>
                       </div>
                       
                     </div>
@@ -88,208 +88,238 @@
     </header>
 
     <main>
-        <section class="w-full flex justify-center">
-            <div style="width: 1280px;" class="bg-white p-4 rounded-lg grid grid-cols-4 space-x-4 justify-center">
-                <div class="bg-[#F4F7FF] rounded-lg p-4  items-center">
-                  <div class="bg-blue-100 rounded-full p-2 inline-block">
-                    <svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <desc>
-                                Created with Pixso.
-                        </desc>
-                        <defs/>
-                        <path id="Vector" d="M25.33 0L6.66 0C2.98 0 0 2.98 0 6.66L0 25.33C0 29.01 2.98 31.99 6.66 32L25.33 32C29.01 31.99 31.99 29.01 32 25.33L32 6.66C31.99 2.98 29.01 0 25.33 0ZM26.66 10.77L14.32 23.11C13.28 24.15 11.59 24.15 10.55 23.11C10.55 23.11 10.55 23.11 10.55 23.11L5.33 17.88C4.81 17.36 4.81 16.52 5.33 16C5.85 15.47 6.7 15.47 7.22 16L12.44 21.22L24.78 8.88C25.3 8.36 26.15 8.36 26.66 8.88C27.18 9.4 27.18 10.25 26.66 10.77Z" fill="#3752FD" fill-opacity="1.000000" fill-rule="nonzero"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p class="text-sm text-gray-600">Task Assigned</p>
-                    <p class="text-3xl font-semibold">05</p>
-                  </div>
+      <div class="main_section flex justify-center">
+        <div>     
+            <section class="w-full flex justify-center">
+          <div style="width: 1280px;" class="bg-white p-4 rounded-lg grid grid-cols-4 space-x-4 justify-center">
+              <div class="bg-[#F4F7FF] rounded-lg p-4  items-center">
+                <div class="bg-blue-100 rounded-full p-2 inline-block">
+                  <svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <desc>
+                              Created with Pixso.
+                      </desc>
+                      <defs/>
+                      <path id="Vector" d="M25.33 0L6.66 0C2.98 0 0 2.98 0 6.66L0 25.33C0 29.01 2.98 31.99 6.66 32L25.33 32C29.01 31.99 31.99 29.01 32 25.33L32 6.66C31.99 2.98 29.01 0 25.33 0ZM26.66 10.77L14.32 23.11C13.28 24.15 11.59 24.15 10.55 23.11C10.55 23.11 10.55 23.11 10.55 23.11L5.33 17.88C4.81 17.36 4.81 16.52 5.33 16C5.85 15.47 6.7 15.47 7.22 16L12.44 21.22L24.78 8.88C25.3 8.36 26.15 8.36 26.66 8.88C27.18 9.4 27.18 10.25 26.66 10.77Z" fill="#3752FD" fill-opacity="1.000000" fill-rule="nonzero"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-600">Task Assigned</p>
+                  <p id="decrease-value" class=" text-3xl font-semibold">5</p>
+                </div>
+              </div>
+            
+              <div class="bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg p-4 col-span-2 items-center">
+                <img src="assets/board.png" alt="Icon" class="h-10 w-10">
+                <div>
+                  <p class="text-white font-semibold">Discover Something</p>
+                  <p class="text-white text-sm">New Today!</p>
+                </div>
+              </div>
+            
+              <div class="bg-[#F4F7FF] rounded-lg p-4 flex items-center space-x-4">
+                <div class="bg-gray-100 rounded-full p-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <p id="day-name" class="text-sm text-gray-600">Wed,</p>
+                  <p id="current-date" class="text-base font-semibold">Jul 28 2025</p>
+                </div>
+              </div>
+          </div>
+            </section>
+
+            <section class="w-full flex justify-center">
+        <div style="width: 1280px;" class="bg-white p-4 gap-5 rounded-lg grid grid-cols-3 space-x-4 justify-center">
+            <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
+                <div class=" mb-4">
+                  <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
                 </div>
               
-                <div class="bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg p-4 col-span-2 items-center">
-                  <img src="assets/board.png" alt="Icon" class="h-10 w-10">
-                  <div>
-                    <p class="text-white font-semibold">Discover Something</p>
-                    <p class="text-white text-sm">New Today!</p>
-                  </div>
+                <div class="mb-4">
+                  <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
                 </div>
               
-                <div class="bg-[#F4F7FF] rounded-lg p-4 flex items-center space-x-4">
-                  <div class="bg-gray-100 rounded-full p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
+                <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
+                  <p>Debug using Chrome DevTools, check for overlapping ...</p>
+                </div>
+              
+                <div class="flex justify-between items-center">
                   <div>
-                    <p class="text-sm text-gray-600">Wed,</p>
-                    <p class="text-base font-semibold">Jul 28 2025</p>
+                    <p class="text-sm text-gray-600">Deadline</p>
+                    <p class="font-semibold text-gray-800">21 March 2025</p>
                   </div>
+                  <button class="completed_button bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                    Completed
+                  </button>
+                </div>
+              </div>
+
+
+
+              <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
+                <div class=" mb-4">
+                  <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
+                </div>
+              
+                <div class="mb-4">
+                  <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
+                </div>
+              
+                <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
+                  <p>Debug using Chrome DevTools, check for overlapping ...</p>
+                </div>
+              
+                <div class="flex justify-between items-center">
+                  <div>
+                    <p class="text-sm text-gray-600">Deadline</p>
+                    <p class="font-semibold text-gray-800">21 March 2025</p>
+                  </div>
+                  <button class="completed_button bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                    Completed
+                  </button>
+                </div>
+              </div>
+
+
+
+
+              <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
+                <div class=" mb-4">
+                  <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
+                </div>
+              
+                <div class="mb-4">
+                  <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
+                </div>
+              
+                <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
+                  <p>Debug using Chrome DevTools, check for overlapping ...</p>
+                </div>
+              
+                <div class="flex justify-between items-center">
+                  <div>
+                    <p class="text-sm text-gray-600">Deadline</p>
+                    <p class="font-semibold text-gray-800">21 March 2025</p>
+                  </div>
+                  <button class="completed_button bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                    Completed
+                  </button>
+                </div>
+              </div>
+
+
+
+              <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
+                <div class=" mb-4">
+                  <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
+                </div>
+              
+                <div class="mb-4">
+                  <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
+                </div>
+              
+                <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
+                  <p>Debug using Chrome DevTools, check for overlapping ...</p>
+                </div>
+              
+                <div class="flex justify-between items-center">
+                  <div>
+                    <p class="text-sm text-gray-600">Deadline</p>
+                    <p class="font-semibold text-gray-800">21 March 2025</p>
+                  </div>
+                  <button class="completed_button bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                    Completed
+                  </button>
+                </div>
+              </div>
+
+
+
+
+              <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
+                <div class=" mb-4">
+                  <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
+                </div>
+              
+                <div class="mb-4">
+                  <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
+                </div>
+              
+                <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
+                  <p>Debug using Chrome DevTools, check for overlapping ...</p>
+                </div>
+              
+                <div class="flex justify-between items-center">
+                  <div>
+                    <p class="text-sm text-gray-600">Deadline</p>
+                    <p class="font-semibold text-gray-800">21 March 2025</p>
+                  </div>
+                  <button class="completed_button bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                    Completed
+                  </button>
+                </div>
+              </div>
+
+
+
+
+              <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
+                <div class=" mb-4">
+                  <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
+                </div>
+              
+                <div class="mb-4">
+                  <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
+                </div>
+              
+                <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
+                  <p>Debug using Chrome DevTools, check for overlapping ...</p>
+                </div>
+              
+                <div class="flex justify-between items-center">
+                  <div>
+                    <p class="text-sm text-gray-600">Deadline</p>
+                    <p class="font-semibold text-gray-800">21 March 2025</p>
+                  </div>
+                  <button class="completed_button bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                    Completed
+                  </button>
                 </div>
             </div>
-        </section>
-
-
-
-        <section class="w-full flex justify-center">
-            <div style="width: 1280px;" class="bg-white p-4 gap-5 rounded-lg grid grid-cols-3 space-x-4 justify-center">
-                <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
-                    <div class=" mb-4">
-                      <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
-                    </div>
-                  
-                    <div class="mb-4">
-                      <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
-                    </div>
-                  
-                    <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
-                      <p>Debug using Chrome DevTools, check for overlapping ...</p>
-                    </div>
-                  
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class="text-sm text-gray-600">Deadline</p>
-                        <p class="font-semibold text-gray-800">21 March 2025</p>
-                      </div>
-                      <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
-                        Completed
-                      </button>
-                    </div>
-                  </div>
-
-
-
-                  <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
-                    <div class=" mb-4">
-                      <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
-                    </div>
-                  
-                    <div class="mb-4">
-                      <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
-                    </div>
-                  
-                    <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
-                      <p>Debug using Chrome DevTools, check for overlapping ...</p>
-                    </div>
-                  
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class="text-sm text-gray-600">Deadline</p>
-                        <p class="font-semibold text-gray-800">21 March 2025</p>
-                      </div>
-                      <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
-                        Completed
-                      </button>
-                    </div>
-                  </div>
-
-
-
-
-                  <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
-                    <div class=" mb-4">
-                      <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
-                    </div>
-                  
-                    <div class="mb-4">
-                      <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
-                    </div>
-                  
-                    <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
-                      <p>Debug using Chrome DevTools, check for overlapping ...</p>
-                    </div>
-                  
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class="text-sm text-gray-600">Deadline</p>
-                        <p class="font-semibold text-gray-800">21 March 2025</p>
-                      </div>
-                      <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
-                        Completed
-                      </button>
-                    </div>
-                  </div>
-
-
-
-                  <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
-                    <div class=" mb-4">
-                      <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
-                    </div>
-                  
-                    <div class="mb-4">
-                      <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
-                    </div>
-                  
-                    <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
-                      <p>Debug using Chrome DevTools, check for overlapping ...</p>
-                    </div>
-                  
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class="text-sm text-gray-600">Deadline</p>
-                        <p class="font-semibold text-gray-800">21 March 2025</p>
-                      </div>
-                      <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
-                        Completed
-                      </button>
-                    </div>
-                  </div>
-
-
-
-
-                  <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
-                    <div class=" mb-4">
-                      <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
-                    </div>
-                  
-                    <div class="mb-4">
-                      <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
-                    </div>
-                  
-                    <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
-                      <p>Debug using Chrome DevTools, check for overlapping ...</p>
-                    </div>
-                  
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class="text-sm text-gray-600">Deadline</p>
-                        <p class="font-semibold text-gray-800">21 March 2025</p>
-                      </div>
-                      <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
-                        Completed
-                      </button>
-                    </div>
-                  </div>
-
-
-
-
-                  <div class="bg-gray-100 p-6 rounded-lg max-w-sm mx-auto">
-                    <div class=" mb-4">
-                      <span class="bg-blue-100 text-blue-800 text-sm font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">ShopEase</span>
-                    </div>
-                  
-                    <div class="mb-4">
-                      <h2 class="text-2xl font-semibold text-gray-800">Fix Mobile Button Issue</h2>
-                    </div>
-                  
-                    <div class="mb-6 bg-white p-4 rounded-lg text-gray-600">
-                      <p>Debug using Chrome DevTools, check for overlapping ...</p>
-                    </div>
-                  
-                    <div class="flex justify-between items-center">
-                      <div>
-                        <p class="text-sm text-gray-600">Deadline</p>
-                        <p class="font-semibold text-gray-800">21 March 2025</p>
-                      </div>
-                      <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
-                        Completed
-                      </button>
-                    </div>
+        </div>
+            </section>
+        </div>
+        <div>
+          <div class=" min-h-screen">
+            <div class="max-w-md mx-auto bg-white rounded-lg shadow p-6 ml-4">
+              <div class=" text-center  mb-6">
+                <div class="flex justify-center mb-4 items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <h2 class="text-lg font-semibold text-gray-800">Activity Log</h2>
                 </div>
+                <button onclick="hideContent()" class=" bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg">Clear History</button>
+              </div>
+          
+              <div id="taskMessages"  class="contentToHide space-y-4">
+                <div id="contentToHide" class=" bg-gray-200 rounded-lg p-4">
+                  <p class="text-gray-700">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+                </div>
+                <div class="bg-gray-200 rounded-lg p-4">
+                  <p class="text-gray-700">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+
+
+
+
 
     </main>
 
