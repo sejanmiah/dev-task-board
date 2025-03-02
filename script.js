@@ -73,3 +73,10 @@ function hideContent() {
         element.style.visibility = "hidden";
     });
 }
+
+
+
+
+document.querySelector("#link_container").addEventListener("click", function() {
+    window.location.href = "question.html";
+});
