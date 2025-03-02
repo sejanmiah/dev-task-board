@@ -80,3 +80,23 @@ function hideContent() {
 document.querySelector("#link_container").addEventListener("click", function() {
     window.location.href = "question.html";
 });
+
+
+function goBack() {
+    window.history.back(); 
+}
+
+
+
+
+function goBack() {
+    window.history.back(); // Goes back to the previous page
+}
+
+function changeBackground() {
+    // Generate a random hex color
+    let randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+    
+    // Set the body background color
+    document.body.style.backgroundColor = randomColor;
+}
