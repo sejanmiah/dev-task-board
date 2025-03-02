@@ -1,6 +1,6 @@
 document.querySelectorAll('.completed_button').forEach(button => {
     button.addEventListener("click", function(event) {
-        alert("Hello Sejan")
+        alert("Board Updated Sucessfully")
 
 
 
